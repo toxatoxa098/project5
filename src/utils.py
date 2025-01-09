@@ -1,6 +1,2 @@
-def text_reverse(text: str) -> str:
-    """Переворачивае строку"""
-    return text[::-1]
-
-
-print(text_reverse('text'))
+def text_reverse(new_text: str) -> str:
+    return new_text[::-1]
